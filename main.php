@@ -132,10 +132,9 @@ function wptsjg_get_swiper_config(string $mode) {
          ),
          'slide' => array(
             'grabCursor' => true,
-            'loop' => true,
+            'loop' => true,         
          ),        
          'fade' => array(
-            //'speed' => '1500',
             'effect' => 'fade',
             'grabCursor' => true,
             'loop' => true,
@@ -233,6 +232,7 @@ function wptsjg_render_gallery(string $block_content, array $block) {
       if ($is_pagination_enabled) {
          $swiper_config['pagination'] = array(
             'el' => sprintf('#%s .swiper-pagination', esc_attr($gallery_name)),
+            'clickable' => 'true',
          );
       }
 
