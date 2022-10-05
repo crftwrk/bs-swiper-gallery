@@ -232,7 +232,7 @@ function wptsjg_render_gallery(string $block_content, array $block) {
       if ($is_pagination_enabled) {
          $swiper_config['pagination'] = array(
             'el' => sprintf('#%s .swiper-pagination', esc_attr($gallery_name)),
-            'clickable' => 'true',
+            //'clickable' => 'true',
          );
       }
 
