@@ -1,5 +1,5 @@
 <?php
-/*Plugin Name: bS Swiper Picture
+/*Plugin Name: bS Swiper Gallery
 Plugin URI: https://bootscore.me/plugins/bs-swiper/
 Description: Plugin adds an additional bS Swiper template. Plugin must be loaded AFTER bs-swiper-main
 Version: 5.0.0.0
@@ -71,19 +71,19 @@ function wptsjg_enqueue_assets() {
       wp_enqueue_style('swiperjs', $base_uri . 'bs-swiper-main/css/swiper-bundle.min.css', null, WPTJGS_SWIPER_VERSION);
 
       // Enqueue GLightbox's front-end assets..
-      wp_enqueue_script('glightbox', $base_uri . 'bs-swiper-picture-main/glightbox/glightbox.min.js', null, WPTJGS_GLIGHTBOX_VERSION);
-      wp_enqueue_style('glightbox', $base_uri . 'bs-swiper-picture-main/glightbox/glightbox.css', null, WPTJGS_GLIGHTBOX_VERSION);
+      wp_enqueue_script('glightbox', $base_uri . 'bs-swiper-gallery-main/glightbox/glightbox.min.js', null, WPTJGS_GLIGHTBOX_VERSION);
+      wp_enqueue_style('glightbox', $base_uri . 'bs-swiper-gallery-main/glightbox/glightbox.css', null, WPTJGS_GLIGHTBOX_VERSION);
 
       wp_enqueue_style(
          $handle,
-         $base_uri . 'bs-swiper-picture-main/wpt-swiper-gallery/wpt-swiper-gallery.css',
+         $base_uri . 'bs-swiper-gallery-main/wpt-swiper-gallery/wpt-swiper-gallery.css',
          null, // No style dependencies
          $version
       );
 
       wp_enqueue_script(
          $handle,
-         $base_uri . 'bs-swiper-picture-main/wpt-swiper-gallery/wpt-swiper-gallery.js',
+         $base_uri . 'bs-swiper-gallery-main/wpt-swiper-gallery/wpt-swiper-gallery.js',
          array('swiperjs', 'glightbox'),
          $version
       );
