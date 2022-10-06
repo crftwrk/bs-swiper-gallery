@@ -132,15 +132,22 @@ function wptsjg_get_swiper_config(string $mode) {
          ),
          'slide' => array(
             'grabCursor' => true,
-            'loop' => true,         
+            'loop' => true,    
+            'autoplay' => array(
+               'delay' => 4000,
+            ),           
          ),        
          'fade' => array(
             'effect' => 'fade',
+            'speed' => 1500,
             'grabCursor' => true,
             'loop' => true,
             'fadeEffect' => array(
                'crossFade' => true,
             ),
+            'autoplay' => array(
+               'delay' => 4000,
+            ),              
          ),
       );
    }
