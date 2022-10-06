@@ -4,7 +4,7 @@ This plugin extends the [bs Swiper](https://github.com/bootscore/bs-swiper) plug
 
 ## Installation
 
-- Download and install [bootscore](https://github.com/bootscore/bootscore) theme
+- Download and install [bootScore](https://github.com/bootscore/bootscore) theme
 - Download and install [bs Swiper](https://github.com/bootscore/bs-swiper) plugin
 - Download and install bS Swiper Gallery plugin
 
