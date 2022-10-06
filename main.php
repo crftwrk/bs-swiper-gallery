@@ -1,26 +1,11 @@
 <?php
 /*Plugin Name: bS Swiper Gallery
-Plugin URI: https://bootscore.me/plugins/bs-swiper/
-Description: Plugin adds an additional bS Swiper template. Plugin must be loaded AFTER bs-swiper-main
+Plugin URI: https://dev.bootscore.me/plugins/bs-swiper/
+Description: This plugin extends the bs Swiper plugin to a WordPress Gutenberg image gallery with lightbox in bootScore theme.
 Version: 5.0.0.0
 Author: bootScore
 Author URI: https://bootscore.me
 License: MIT License
-
-
-Posts: 
-[bs-logo-swiper type="post" category="cars, boats" order="ASC" orderby="date" posts="6"]
-
-Child-pages: 
-[bs-logo-swiper type="page" post_parent="21" order="ASC" orderby="title" posts="6"]
-
-Custom post types:
-[bs-logo-swiper type="isotope" tax="isotope_category" terms="dogs, cats" order="DESC" orderby="date" posts="5"]
-
-Single items:
-[bs-logo-swiper type="post" id="1, 15"]
-[bs-logo-swiper type="page" id="2, 25"]
-[bs-logo-swiper type="isotope" id="33, 31"]
 */
 
 
