@@ -405,6 +405,7 @@
 
 .glightbox-open {
   overflow: hidden;
+  height: auto;
 }
 
 .gloader {
