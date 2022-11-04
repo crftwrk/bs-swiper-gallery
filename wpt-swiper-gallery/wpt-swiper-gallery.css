@@ -29,11 +29,11 @@
     height: 15em;
  }
  
- .swiper-slide a {
-    display: block;
-    width: 100%;
-    height: 100%;
- }
+ .wpt-swiper-gallery .swiper-slide a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
  
  .swiper-slide a img {
     width: 100%;
