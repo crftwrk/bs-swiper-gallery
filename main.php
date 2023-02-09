@@ -52,9 +52,8 @@ function wptsjg_enqueue_assets() {
       $handle = 'wptsjg';
 
       // Enqueue Swiper's front-end assets.
-      // No need to enqueue swiper twice
-      //wp_enqueue_script('swiperjs', $base_uri . 'bs-swiper-main/js/swiper-bundle.min.js', null, WPTJGS_SWIPER_VERSION);
-      //wp_enqueue_style('swiperjs', $base_uri . 'bs-swiper-main/css/swiper-bundle.min.css', null, WPTJGS_SWIPER_VERSION);
+      wp_enqueue_script('swiperjs', $base_uri . 'bs-swiper-main/js/swiper-bundle.min.js', null, WPTJGS_SWIPER_VERSION);
+      wp_enqueue_style('swiperjs', $base_uri . 'bs-swiper-main/css/swiper-bundle.min.css', null, WPTJGS_SWIPER_VERSION);
 
       // Enqueue GLightbox's front-end assets..
       wp_enqueue_script('glightbox', $base_uri . 'bs-swiper-gallery-main/glightbox/glightbox.min.js', null, WPTJGS_GLIGHTBOX_VERSION);
