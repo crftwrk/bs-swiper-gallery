@@ -9,10 +9,6 @@
     margin-bottom: 4em;
  }
  
- .swiper {
-    /* ... */
- }
- 
  .swiper-slide {
     background-position: center;
     background-size: cover;
@@ -35,7 +31,7 @@
   height: 100%;
 }
  
- .swiper-slide a img {
+ .wpt-swiper-gallery .swiper-slide a img {
     width: 100%;
     height: 100%;
     object-fit: cover;
