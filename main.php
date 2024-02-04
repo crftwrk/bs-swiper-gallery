@@ -1,9 +1,9 @@
 <?php
-/*Plugin Name: bS Swiper Gallery
+/*Plugin Name: bs Swiper Gallery
 Plugin URI: https://dev.bootscore.me/plugins/bs-swiper/
 Description: This plugin extends the bs Swiper plugin to a WordPress Gutenberg image gallery with lightbox in bootScore theme.
 Version: 5.1.0
-Author: bootScore
+Author: BootScore
 Author URI: https://bootscore.me
 License: MIT License
 */
