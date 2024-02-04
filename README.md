@@ -1,10 +1,10 @@
-# bS Swiper Gallery
+# bs Swiper Gallery
 
-This plugin extends the [bs Swiper](https://github.com/bootscore/bs-swiper) plugin to a WordPress Gutenberg image gallery with lightbox in bootScore theme.
+This plugin extends the [bs Swiper](https://github.com/bootscore/bs-swiper) plugin to a WordPress Gutenberg image gallery with lightbox in Bootscore theme.
 
 ## Installation
 
-- Download and install [bootScore](https://github.com/bootscore/bootscore) theme
+- Download and install [Bootscore](https://github.com/bootscore/bootscore) theme
 - Download and install [bs Swiper](https://github.com/bootscore/bs-swiper) plugin
 - Download and install bS Swiper Gallery plugin
 
